@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* สไตล์สำหรับ container ของ Box */
+.contract-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* สไตล์สำหรับ Box */
+.contract-box {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 0 0 20px 20px;
+}
+
+/* สไตล์เมื่อ hover ที่ Box */
+.contract-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* สไตล์สำหรับไอคอน */
+.contract-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* สไตล์สำหรับชื่อใน Box */
+.contract-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.conteiner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.conteiner-header{
+  background-color: #333;
+  padding: 10px;
+}
+.conteiner-banner {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.conteiner-banner img {
+  width: 250px;
+  height: auto;
+}
+.conteiner-header p {
+  font-size: larger;
+  text-align: center;
+  color: #f1f1f1;
+}
