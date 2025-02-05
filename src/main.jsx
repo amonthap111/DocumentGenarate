@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
-import Doc from './doc';
+import Doc from "./doc.jsx"; // ถ้าไฟล์เป็นตัวพิมพ์เล็ก
 import DocumentEnglih from './DocumentEnglih'
 import './index.css';
 

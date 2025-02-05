@@ -156,7 +156,7 @@ function DocumentEnglih() {
 
       {/* Title */}
       <View style={styles.title}>
-        <Text style={{ fontSize: 20, fontWeight: 'bold', fontFamily:'Sarabun-Bold' ,textAlign:'center' ,marginBottom:10,}}>สัญญาเช่า</Text>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', fontFamily:'Sarabun-Bold' ,textAlign:'center' ,marginBottom:10,}}>Rental Contract</Text>
         <Text style={{ fontSize: 14, fontFamily:'Sarabun-Thin' ,textAlign:'center' ,marginBottom:10,}}>{projectName}</Text>
       </View>
       <View style={styles.content}>
